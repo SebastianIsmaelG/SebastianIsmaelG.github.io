@@ -1,0 +1,27 @@
+.daw1{
+    background-image: url("../images/cover.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.notosans{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.dja2{
+    position: relative;
+    top: 20px;
+}
+.daf{
+    width: 300px;
+    height: 300px;;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.titleslogan{
+    display: none;
+}
+.sdas{
+    display: none;
+}
