@@ -9,19 +9,34 @@
 .notosans{
     font-family: 'Noto Sans JP', sans-serif;
 }
-.dja2{
-    position: relative;
-    top: 20px;
+.dja2:hover{
+    background-color: white;
 }
 .daf{
-    width: 300px;
-    height: 300px;;
+    width: 400px;
+    height: 400px;;
     border-radius: 50%;
     object-fit: cover;
 }
 .titleslogan{
-    display: none;
+ /**display: none;**/
 }
-.sdas{
-    display: none;
+.dasd{
+    background: rgb(0,16,36);
+background: linear-gradient(90deg, rgba(0,16,36,1) 0%, rgba(1,7,15,1) 23%, rgba(39,142,163,1) 100%);
+}
+.machinedot p span{
+    position:absolute;
+    right:0;
+    width:0;
+    background: rgb(0,16,36);
+    background: linear-gradient(90deg, rgba(0,16,36,1) 0%, rgba(1,7,15,1) 23%, rgba(39,142,163,1) 100%);
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30);
+    
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
 }

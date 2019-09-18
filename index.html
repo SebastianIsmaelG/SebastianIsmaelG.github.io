@@ -5,100 +5,228 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title><&nbsp;Sebastián Dev&nbsp;/> </title>
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
         <script src="js/jquery-3.4.1.min.js"></script>
-        <script src="js/functions.js"></script>
     </head>
-    <body class="daw1" onload="initials()">
+    <body class="daw1"> <!--Onload=initials()-->
         <header>
-            <div class="container-fluid bg-dark">
-             <div class="row">
-                <div class="col-12">
-                    <a class="navbar-brand" href="#">Sebastián Gutierrez</a>
+            <div class="container-fluid dasd">
+            <!---Hacer fixed top cuando se haya hecho scroll-->
+             <nav class="navbar navbar-expand-lg  navbar-light dasd">
+                <div class="row">
+                    <div class="col-10 text-left">
+                        <a class="navbar-brand text-light" href="#">Sebastián Gutiérrez</a>
+                    </div>
+                    <div class="col-2 ml-auto">
+                            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button>
+                    </div>
+                    <div class="col-12 text-light text-left ">
+                        <div id="maquinas"></div>
+                        
+                    </div>
+                   
+                 </div>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Inicio <span class="sr-only">Inicio</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Mis Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Contactame!</a>
+                    </li>
+                  </ul>
+                  
                 </div>
-                <div class="col-12">
-                    <p>Desarrollador Web</p>
-                </div>
-             </div>
+              </nav>
+              
             </div>
         </header>
         <main>
             <br>
             <div class="container">
                 <div class="row">
-                   <div class="col-lg-6 text-light bg-primary">
-                      <div class="py-2 text-center">
-                        <img class="daf" src="images/sa.jpg" alt="">
+                   <div class="col-lg-6 text-light ">
+                      <div class=" text-center slideUp">
+                        <img class="daf my-0" src="images/sa.jpg" alt="">
                       </div>
                    </div>
                    <div class="col-lg-6 text-light bg-secondary">
                         <div class="py-2 text-right">
                             <h1 class="titleslogan roboto">BUSCAS JUEGOS MAS BARATOS QUE EN STEAM CTM!?</h1>
                         </div>
-                        <div class="py-2 text-justify sdas roboto">
-                            <p>Hola! Mi nombre es Sebastián Gutiérrez. Soy derarrollador residente en la VI Región de O'higgins, Chile.</p>
+                        <div class="py-2 px-2 text-justify slideLeft4seg roboto ">
+                            <p>Hola! Mi nombre es Sebastián Gutiérrez. Soy desarrollador Full-Stack (Frontend + Backend) especializado en Programación Web, analisis y desarrollo de sistemas.</p>
                             <p>Me especializo en el desarrollo web, me apasiona el análisis y desarrollo de sistemas por su complejidad y el poder observar la creación de sistemas desde cero. </p>
+                            <div class="container text-center">
+                                    <button type="button" class="btn btn-primary py-2 roboto dja2">Mis Proyectos &#8594;</button>
+                            </div> 
                         </div>
                    </div>
                 </div>
             </div>
             <br>
             <div class="container">
-                <div class="row">
-                    <div class="col-5">
-                        <div class="row">
-                            <div class="col-6">
-                               <p class="text-light notosans">HTML</p>
-                            </div>
-                            <div class="col-6">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <p class="text-light notosans">CSS</p>
-                            </div>
-                            <div class="col-6">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <p class="text-light notosans">Javascript</p>
-                            </div>
-                            <div class="col-6">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <p class="text-light notosans">PHP</p>
-                            </div>
-                            <div class="col-6">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <p class="text-light notosans">Pyhton</p>
-                            </div>
-                            <div class="col-6">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row bg-primary">
+                    <div class="col-6 bg-dark">
+                            <div class="">
+                                    <div class="row">
+                                       <div class="col-lg-8">
+                                          <h3 class="my-2 text-light text-center">Habilidades Tecnicas</h3>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                              <div class="row">
+                                                      <div class="col-6">
+                                                      <p class="text-light notosans">HTML</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <p class="text-light notosans">CSS</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <p class="text-light notosans">Javascript</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <p class="text-light notosans">PHP</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <p class="text-light notosans">Pyhton</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                          </div>
+                                      </div>
+                                    </div>  
+                                  </div>
+                    </div>
+                    <div class="col-6">
+                            <div class="">
+                                    <div class="row">
+                                       <div class="col-lg-8">
+                                          <h3 class="my-2 text-light text-center">Habilidades Tecnicas</h3>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                              <div class="row">
+                                                      <div class="col-6">
+                                                      <p class="text-light notosans">HTML</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <p class="text-light notosans">CSS</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <p class="text-light notosans">Javascript</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <p class="text-light notosans">PHP</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <p class="text-light notosans">Pyhton</p>
+                                                      </div>
+                                                      <div class="col-6">
+                                                          <div class="progress">
+                                                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                      </div>
+                                          </div>
+                                      </div>
+                                    </div>  
+                                  </div>  
                     </div>
                 </div>
             </div>
-            <div class="container text-center">
-                <button type="button" class="btn btn-primary py-2 roboto dja2">Mis Proyectos &#8594;</button>
-            </div>            
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="bg-primary my-1 px-1" style="width: 100%; height:300px;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aspernatur quasi ducimus vitae molestias tempore dignissimos. Iusto culpa, distinctio qui non laborum explicabo corporis numquam consequuntur voluptate quibusdam quam voluptatum.
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-primary my-1 px-1" style="width: 100%; height:300px;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, nemo! Dolore placeat obcaecati voluptatum iusto. Provident velit nam repellendus hic, natus officiis, nulla vero saepe asperiores, error accusamus dignissimos eveniet.
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-primary my-1 px-1" style="width: 100%; height:300px;">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quidem velit suscipit quis harum iure, minima vitae amet illo cumque rem blanditiis ipsam provident inventore quod eligendi dolor aliquam deleniti.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="bg-primary my-1 px-1" style="width:100%; height:200px;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo culpa reiciendis est sit ipsam quam minima corporis id exercitationem! Eligendi aperiam deleniti nobis modi doloremque totam, officia laborum fuga ex.
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-primary my-1 px-1" style="width: 100%; height:200px;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia at maiores, saepe, voluptatibus recusandae aut repellendus nesciunt nemo minus totam qui est eligendi excepturi ratione voluptates alias voluptate. Aspernatur, beatae!
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-primary my-1 px-1" style="width: 100%; height:200px;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed sint laborum voluptas hic? Rerum velit voluptas atque a incidunt! Iusto ad quae doloribus in nesciunt. Inventore qui doloribus sint repellendus?
+                        </div>
+                    </div>
+                </div>
+            </div>           
         </main>
 
         <!--Scripts js-->
+        <script src="js/functions.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <!--Fin de js-->
