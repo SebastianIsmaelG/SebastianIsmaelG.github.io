@@ -15,8 +15,7 @@
     
 }
 .daf{
-    width: 400px;
-    height: 400px;;
+    height: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
