@@ -31,7 +31,7 @@ function maquina(contenedor,texto,intervalo){
        }},intervalo);
  };
  
- var texto = "Progamador y Analista Informatico";
+ var texto = "Front/Back-End Developer";
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
  maquina("maquinas",texto,100);
 

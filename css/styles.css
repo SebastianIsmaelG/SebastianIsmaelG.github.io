@@ -2,6 +2,8 @@
     background-image: url("../images/cover.jpg");
     background-color: #cccccc;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .roboto{
     font-family: 'Roboto', sans-serif;
@@ -10,7 +12,7 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 .dja2:hover{
-    background-color: white;
+    
 }
 .daf{
     width: 400px;
@@ -18,19 +20,34 @@
     border-radius: 50%;
     object-fit: cover;
 }
-.titleslogan{
- /**display: none;**/
+.dja2{
+    letter-spacing: 1px;
+}
+.exo{
+    font-family: 'Exo', sans-serif;
+    color: white;
+    
 }
 .dasd{
-    background: rgb(0,16,36);
-background: linear-gradient(90deg, rgba(0,16,36,1) 0%, rgba(1,7,15,1) 23%, rgba(39,142,163,1) 100%);
+    border-bottom: 2px solid;
+    border-color: rgb(73, 72, 72);
+    
+}
+.dasd:hover{
+    background-color: rgb(73, 72, 72);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.dasd2:hover{
+    background-color: rgb(73, 72, 72);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 }
 .machinedot p span{
     position:absolute;
     right:0;
     width:0;
-    background: rgb(0,16,36);
-    background: linear-gradient(90deg, rgba(0,16,36,1) 0%, rgba(1,7,15,1) 23%, rgba(39,142,163,1) 100%);
+    background: rgb(0,16,36); 
     border-left: 1px solid #000;
     animation: escribir 5s steps(30);
     
@@ -39,4 +56,10 @@ background: linear-gradient(90deg, rgba(0,16,36,1) 0%, rgba(1,7,15,1) 23%, rgba(
 @keyframes escribir {
     from { width: 100% }
     to { width:0 }
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(55, 110, 212);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(55,110,212, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
