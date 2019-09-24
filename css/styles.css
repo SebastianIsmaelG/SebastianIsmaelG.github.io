@@ -8,19 +8,81 @@
 .roboto{
     font-family: 'Roboto', sans-serif;
 }
-.notosans{
-    font-family: 'Noto Sans JP', sans-serif;
-}
-.dja2:hover{
-    
-}
+
+
 .daf{
-    height: 100%;
+    height: auto;
+    width: 80%;
     border-radius: 50%;
     object-fit: cover;
+    
 }
 .dja2{
     letter-spacing: 1px;
+    height: auto;
+    
+
+}
+.icon1{
+    width: 40px;
+    height: 40px;
+    background: #673AB7;
+    float: left;
+    background-image: url("../images/boot.png");
+    background-size: 100% auto;
+    border-radius: 10%;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    float: left;
+    background-image: url("../images/jQuery-logo.png");
+    background-size: 100% auto;
+    background-size: cover;
+    border-radius: 10%;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    float: left;
+    background-image: url("../images/git.png");
+    background-size: 100% auto;
+    border-radius: 10%;
+}
+.icon4{
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    float: left;
+    background-image: url("../images/mysqli.png");
+    background-size: 100% auto;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+}
+.icon5{
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    float: left;
+    background-image: url("../images/server.png");
+    background-size: 100% auto;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+}
+.icon6{
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    float: left;
+    background-image: url("../images/asp.net.png");
+    background-size: 100% auto;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+}
+.lji{
+    background-color: #324250;
 }
 .exo{
     font-family: 'Exo', sans-serif;
@@ -62,3 +124,18 @@
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(55,110,212, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+.icon_zoom{
+    transition: width 1s, height 1s, transform 1s;
+    -moz-transition: width 1s, height 1s, -moz-transform 1s;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    -o-transition: width 1s, height 1s,-o-transform 1s;
+  }
+  .icon_zoom:hover{
+      transform : scale(1.5);
+    -moz-transform : scale(1.2);      /* Firefox */
+    -webkit-transform : scale(1.2);   /* Chrome - Safari */
+    -o-transform : scale(1.2);
+  }
+
+  
