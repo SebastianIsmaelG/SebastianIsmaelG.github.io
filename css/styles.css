@@ -1,15 +1,25 @@
 .daw1{
     background-image: url("../images/cover.jpg");
-    background-color: #cccccc;
+    background-color: #2b2929;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.containerwork1{
+    border: rgb(85, 80, 80) solid 1px;
+    background-image: url("../images/jobs/proyecto1/SharedScreenshot1.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 100% ;
+    text-align: center;
+}
 .roboto{
     font-family: 'Roboto', sans-serif;
 }
-
-
 .daf{
     height: auto;
     width: 80%;
@@ -23,11 +33,12 @@
     
 
 }
+
 .icon1{
     width: 40px;
     height: 40px;
     background: #673AB7;
-    float: left;
+     margin: auto;
     background-image: url("../images/boot.png");
     background-size: 100% auto;
     border-radius: 10%;
@@ -36,7 +47,7 @@
     width: 40px;
     height: 40px;
     background: #eee;
-    float: left;
+    margin: auto;
     background-image: url("../images/jQuery-logo.png");
     background-size: 100% auto;
     background-size: cover;
@@ -46,7 +57,7 @@
     width: 40px;
     height: 40px;
     background: #eee;
-    float: left;
+    margin: auto;
     background-image: url("../images/git.png");
     background-size: 100% auto;
     border-radius: 10%;
@@ -55,7 +66,7 @@
     width: 40px;
     height: 40px;
     background: #eee;
-    float: left;
+    margin: auto;
     background-image: url("../images/mysqli.png");
     background-size: 100% auto;
     border-radius: 10%;
@@ -65,8 +76,8 @@
     width: 40px;
     height: 40px;
     background: #eee;
-    float: left;
-    background-image: url("../images/server.png");
+    margin: auto;
+    background-image: url("../images/django-logo.png");
     background-size: 100% auto;
     border-radius: 10%;
     background-repeat: no-repeat;
@@ -75,18 +86,50 @@
     width: 40px;
     height: 40px;
     background: #eee;
-    float: left;
+    margin: auto;
     background-image: url("../images/asp.net.png");
     background-size: 100% auto;
     border-radius: 10%;
     background-repeat: no-repeat;
 }
+.icon7{
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    margin: auto;
+    background-image: url("../images/trello.png");
+    background-size: 100% auto;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+}
+.icon8{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    background-image: url("../images/firebase.png");
+    background-size: 100% auto;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+}
+.gh{
+    padding-top: 0.1em;
+    
+    background-color: #f3f3f3!important;
+}
+.dasf{
+    background-color:#6887a1;
+    color: #dad8d8;
+}
 .lji{
     background-color: #324250;
 }
+.dfasdf{
+    background-color: #3b596d;
+}
 .exo{
     font-family: 'Exo', sans-serif;
-    color: white;
+    
     
 }
 .dasd{
