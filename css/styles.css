@@ -7,7 +7,19 @@
 }
 .containerwork1{
     border: rgb(85, 80, 80) solid 1px;
-    background-image: url("../images/jobs/proyecto1/SharedScreenshot1.png");
+    background-image: url("../images/jobs/proyecto1/SharedScreenshot1_opt.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 100% ;
+    text-align: center;
+}
+.containerwork2{
+    border: rgb(85, 80, 80) solid 1px;
+    background-image: url("../images/jobs/proyecto2/SharedScreenshot_opt.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,12 +37,14 @@
     width: 80%;
     border-radius: 50%;
     object-fit: cover;
-    
+    padding: 5px;
+    border: solid #2268a5 2px;
+
 }
 .dja2{
     letter-spacing: 1px;
     height: auto;
-    
+
 
 }
 
@@ -114,7 +128,6 @@
 }
 .gh{
     padding-top: 0.1em;
-    
     background-color: #f3f3f3!important;
 }
 .dasf{
@@ -129,13 +142,19 @@
 }
 .exo{
     font-family: 'Exo', sans-serif;
-    
-    
+
+
+}
+.titleslogan{
+  line-height: 150%;
+}
+.lt1px{
+  letter-spacing: 1px;
 }
 .dasd{
     border-bottom: 2px solid;
     border-color: rgb(73, 72, 72);
-    
+
 }
 .dasd:hover{
     background-color: rgb(73, 72, 72);
@@ -151,10 +170,10 @@
     position:absolute;
     right:0;
     width:0;
-    background: rgb(0,16,36); 
+    background: rgb(0,16,36);
     border-left: 1px solid #000;
     animation: escribir 5s steps(30);
-    
+
 }
 
 @keyframes escribir {
@@ -182,5 +201,3 @@
     -webkit-transform : scale(1.2);   /* Chrome - Safari */
     -o-transform : scale(1.2);
   }
-
-  
