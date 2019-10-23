@@ -201,3 +201,12 @@
     -webkit-transform : scale(1.2);   /* Chrome - Safari */
     -o-transform : scale(1.2);
   }
+.contact-box-icons{
+  margin: 5em 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact_footer{
+  background-color: gray;
+}

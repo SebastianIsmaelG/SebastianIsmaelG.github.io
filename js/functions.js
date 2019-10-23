@@ -4,7 +4,14 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 $(this).ekkoLightbox();
 });
 
-/**  **/
+/** Scroll smooth  **/
+
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500,
+    speedAsDuration: true
+  });
+
+/**Show divs with boxes **/
 function muestra_oculta(id){
    if (document.getElementById){ //se obtiene el id
    var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
@@ -15,6 +22,7 @@ function muestra_oculta(id){
    muestra_oculta('contenido');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
 }
 
+/** Machine tittle typp **/
 function maquina(contenedor,texto,intervalo){
     // Calculamos la longitud del texto
     longitud = texto.length;

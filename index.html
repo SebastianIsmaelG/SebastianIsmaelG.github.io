@@ -37,10 +37,10 @@
                       <a class="nav-link text-light" href="#">Inicio <span class="sr-only">Inicio</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-light" href="#proyects">Proyectos</a>
+                      <a class="nav-link text-light" data-scroll href="#proyects">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-light" href="#">Contactame!</a>
+                      <a class="nav-link text-light" href="contacto.html">Contactame!</a>
                     </li>
                   </ul>
 
@@ -189,11 +189,10 @@
             </section>
             <br>
             <hr>
-            <div class="container exo">
+            <div class="container exo" id="proyects">
               <h4 class="text-light lt1px">Mis Proyectos</h4>
               <h6 class="text-light titleslogan">En esta sección se encuentran los proyectos en los que he trabajado, también encontrarás algunas pruebas y experimentos que he realizado con las diferentes herramientas que uso.</h6>
             </div>
-            <a name="proyects"></a>
             <section>
                 <div class="container">
                 <div class="row my-2">
@@ -313,7 +312,11 @@
                                 <div class="col-12">
                                     <div class="container-fluid">
                                        <div class=" my-1 gh rounded border-secondary fadeIn">
-                                            <p class="exo text-dark text-right">Tecnologías utilizadas <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" class="mx-1 my-1" style="width: 18px;" alt="mysql"><i class="fab fa-html5 fa-lg mx-1 my-1" style="color: #e57f16; background-color: lightcyan;"></i> <i class="fab fa-js fa-lg mx-1 my-1" style="color:#ffeb00;background:#2d2d2d;" aria-hidden="true"></i><i class="fab fa-php fa-lg mx-1 my-1" style="color:#777BB3;" aria-hidden="true"></i><i class="fab fa-bootstrap fa-lg mx-1" style="color: #563d7c; background-color: lightcyan;" aria-hidden="true"></i> </p>
+                                            <p class="exo text-dark text-right">Tecnologías utilizadas <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" class="mx-1 my-1" style="width: 18px;" alt="mysql"><i class="fab fa-html5 fa-lg mx-1 my-1" style="color: #e57f16; background-color: lightcyan;"></i>
+                                               <i class="fab fa-js fa-lg mx-1 my-1" style="color:#ffeb00;background:#2d2d2d;" aria-hidden="true"></i>
+                                               <i class="fab fa-php fa-lg mx-1 my-1" style="color:#777BB3;" aria-hidden="true"></i>
+                                               <i class="fab fa-bootstrap fa-lg mx-1" style="color: #563d7c; background-color: lightcyan;" aria-hidden="true"></i>
+                                              </p>
                                        </div>
                                     </div>
                                 </div>
@@ -324,9 +327,48 @@
                 </div>
 
             </section>
+            <br>
         </main>
+        <footer>
+          <section>
+            <div class="container exo" id="proyects">
+              <h4 class="text-light lt1px">Contactame</h4>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="contact_footer">
+                    <div class="contact-box-icons">
+                      <div class="linkedin-icon">
+                        <a href="#" target="_blank">
+                          <i class="fab fa-linkedin fa-3x"></i>
+                        </a>
+                      </div>
+                      <div class="cv-icon">
+                        <a href="#" target="_blank">
+                          <i class="fas fa-file-alt fa-3x"></i>
+                        </a>
+                      </div>
+                      <div class="github-icon">
+                        <a href="#" target="_blank">
+                          <i class="fab fa-github fa-3x"></i>
+                        </a>
+                      </div>
+                      <div class="whatsapp-icon" id="wpp">
+                        <a href="#" target="">
+                          <i class="fab fa-whatsapp fa-3x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </footer>
 <!--Iconos gratis https://iconos8.es/icons-->
         <!--Scripts js-->
+        <script src="js/smooth-scroll.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
