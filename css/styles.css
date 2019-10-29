@@ -29,6 +29,18 @@
     width: 100% ;
     text-align: center;
 }
+.containerwork3{
+    border: rgb(85, 80, 80) solid 1px;
+    background-image: url("../images/jobs/proyecto3/maintenance.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 100% ;
+    text-align: center;
+}
 .roboto{
     font-family: 'Roboto', sans-serif;
 }
@@ -202,11 +214,28 @@
     -o-transform : scale(1.2);
   }
 .contact-box-icons{
-  margin: 5em 0;
+  margin: 1em 0;
   padding: 5px;
   display: flex;
   justify-content: space-evenly;
 }
-.contact_footer{
-  background-color: gray;
+.contact_footer i {
+  color: #cecece;
+  transition: 0.6s;
+
+}
+.cv-icon i:hover{
+  color: #9762a0;
+}
+.linkedin-icon i:hover{
+  color:#639cb9;
+
+}
+.github-icon i:hover{
+  color: #525151;
+
+}
+.whatsapp-icon i:hover{
+  color:#6fc768;
+
 }
