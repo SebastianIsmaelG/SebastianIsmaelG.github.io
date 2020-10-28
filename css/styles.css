@@ -31,7 +31,7 @@
 }
 .containerwork3{
     border: rgb(85, 80, 80) solid 1px;
-    background-image: url("../images/jobs/proyecto3/maintenance.jpg");
+    background-image: url("../images/jobs/proyecto3/maintenance.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -113,7 +113,7 @@
     height: 40px;
     background: #eee;
     margin: auto;
-    background-image: url("../images/asp.net.png");
+    background-image: url("../images/react.png");
     background-size: 100% auto;
     border-radius: 10%;
     background-repeat: no-repeat;
@@ -145,12 +145,17 @@
 .dasf{
     background-color:#6887a1;
     color: #dad8d8;
+    height: 100px;
 }
 .lji{
     background-color: #324250;
 }
+.container_image{
+    height: 40px;
+}
 .dfasdf{
     background-color: #3b596d;
+
 }
 .exo{
     font-family: 'Exo', sans-serif;
