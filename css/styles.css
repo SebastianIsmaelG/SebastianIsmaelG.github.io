@@ -171,7 +171,8 @@
 .dasd{
     border-bottom: 2px solid;
     border-color: rgb(73, 72, 72);
-
+    align-items: center;
+    padding: .5rem 1rem;
 }
 .dasd:hover{
     background-color: rgb(73, 72, 72);
@@ -243,4 +244,8 @@
 .whatsapp-icon i:hover{
   color:#6fc768;
 
+}
+
+#maquinas{
+    min-width: 250px;
 }

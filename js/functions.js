@@ -45,6 +45,6 @@ function maquina(contenedor,texto,intervalo){
        }},intervalo);
  };
 
- var texto = "Desarrollador Full Stack - Analista Programador ";
+ var texto = "Analista / Programador Full stack ";
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
  maquina("maquinas",texto,100);
