@@ -51,15 +51,11 @@
     object-fit: cover;
     padding: 5px;
     border: solid #2268a5 2px;
-
 }
 .dja2{
     letter-spacing: 1px;
     height: auto;
-
-
 }
-
 .icon1{
     width: 40px;
     height: 40px;
@@ -155,12 +151,12 @@
 }
 .dfasdf{
     background-color: #3b596d;
-
 }
 .exo{
     font-family: 'Exo', sans-serif;
-
-
+}
+.navbar-toggler{
+    background-color: azure;
 }
 .titleslogan{
   line-height: 150%;
@@ -169,13 +165,14 @@
   letter-spacing: 1px;
 }
 .dasd{
-    border-bottom: 2px solid;
-    border-color: rgb(73, 72, 72);
+    filter: blur(.5px);
+    
+    border-color: azure;
     align-items: center;
     padding: .5rem 1rem;
 }
 .dasd:hover{
-    background-color: rgb(73, 72, 72);
+    filter: blur();
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
 }
@@ -213,12 +210,12 @@
     -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
     -o-transition: width 1s, height 1s,-o-transform 1s;
   }
-  .icon_zoom:hover{
-      transform : scale(1.5);
+.icon_zoom:hover{
+     transform : scale(1.5);
     -moz-transform : scale(1.2);      /* Firefox */
     -webkit-transform : scale(1.2);   /* Chrome - Safari */
     -o-transform : scale(1.2);
-  }
+}
 .contact-box-icons{
   margin: 1em 0;
   padding: 5px;
@@ -247,5 +244,5 @@
 }
 
 #maquinas{
-    min-width: 250px;
+    width: 100%;
 }

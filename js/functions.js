@@ -45,6 +45,9 @@ function maquina(contenedor,texto,intervalo){
        }},intervalo);
  };
 
- var texto = "Analista / Programador Full stack ";
+ var texto = "Hola, mi nombre es Sebastián. Analista Programador Full Stack con conocimientos y habilidades solidas en analisis, diseño y desarrollo de sistemas_ ";
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
- maquina("maquinas",texto,100);
+ maquina("maquinas",texto,60);
+
+
+ 
