@@ -11,18 +11,18 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     speedAsDuration: true
   });
 
-/**Show divs with boxes **/
+/**Show divs with boxes 
 function muestra_oculta(id){
    if (document.getElementById){ //se obtiene el id
    var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
    el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
    }
 }
-   window.onload = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
-   muestra_oculta('contenido');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
+   window.onload = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente
+   muestra_oculta('contenido'); "contenido_a_mostrar" es el nombre que le dimos al DIV 
 }
 
-/** Machine tittle typp **/
+ Machine tittle typp 
 function maquina(contenedor,texto,intervalo){
     // Calculamos la longitud del texto
     longitud = texto.length;
@@ -47,7 +47,7 @@ function maquina(contenedor,texto,intervalo){
 
  var texto = "Hola, mi nombre es Sebastián. Analista Programador Full Stack con conocimientos y habilidades solidas en analisis, diseño y desarrollo de sistemas_ ";
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
- maquina("maquinas",texto,60);
+ maquina("maquinas",texto,60); **/
 
 
  
